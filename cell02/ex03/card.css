@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Card styling */
+
 .card {
   background: #fff;
   border-radius: 12px;
@@ -30,7 +30,7 @@ body {
   color: #333;
 }
 
-/* Invisible table */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -41,7 +41,7 @@ td {
   text-align: center;
 }
 
-/* Profile picture */
+
 .profile-pic img {
   width: 120px;
   height: 120px;
@@ -50,20 +50,20 @@ td {
   border: 3px solid #333;
 }
 
-/* Username */
+
 .login {
   font-weight: bold;
   font-size: 1.2rem;
   color: #444;
 }
 
-/* Short description */
+
 .description {
   font-size: 1rem;
   color: #666;
 }
 
-/* Social icons */
+
 .socials img {
   width: 30px;
   height: 30px;
@@ -76,7 +76,7 @@ td {
   transform: scale(1.1);
 }
 
-/* Contact button */
+
 .contact-btn {
   background: #007BFF;
   color: white;

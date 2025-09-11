@@ -24,7 +24,7 @@ h1 {
 #calculator {
     display: flex;
     align-items: center;
-    gap: 10px; /* Adds space between elements */
+    gap: 10px;
 }
 
 input[type="text"], select {

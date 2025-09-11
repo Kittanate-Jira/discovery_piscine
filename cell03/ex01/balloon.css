@@ -8,17 +8,13 @@ body {
 }
 
 #balloon {
-    /* Initial state as per the instructions */
     width: 200px;
     height: 200px;
     background-color: red;
     
-    /* This is the key to making it a circle */
     border-radius: 50%;
     
-    /* Make the changes smooth */
     transition: width 0.2s ease, height 0.2s ease, background-color 0.2s ease;
     
-    /* Make it obvious it's interactive */
     cursor: pointer;
 }

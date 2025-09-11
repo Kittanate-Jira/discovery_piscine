@@ -1,22 +1,19 @@
-/* Style the main body of the page */
 body {
-    /* Use Flexbox to center the content */
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Make the body at least the full height of the viewport */
-    margin: 0; /* Remove default margin */
+    min-height: 100vh; 
+    margin: 0; 
 
-    /* This is the key for a smooth color change! */
     transition: background-color 0.5s ease;
 }
 
-/* Style the button */
 button {
     padding: 15px 30px;
     font-size: 1.2rem;
     font-weight: bold;
-    cursor: pointer; /* Show a hand cursor on hover */
+    cursor: pointer; 
     border: 2px solid black;
-    border-radius: 8px; /* Give it slightly rounded corners */
+    border-radius: 8px; 
 }
