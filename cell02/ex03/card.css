@@ -1,0 +1,93 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Card styling */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.card-title {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Invisible table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Profile picture */
+.profile-pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #333;
+}
+
+/* Username */
+.login {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+/* Short description */
+.description {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Social icons */
+.socials img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.socials img:hover {
+  transform: scale(1.1);
+}
+
+/* Contact button */
+.contact-btn {
+  background: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.contact-btn:hover {
+  background: #0056b3;
+}
