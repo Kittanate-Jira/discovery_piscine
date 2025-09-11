@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.parallax {
+  height: 100vh;  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.bg1 {
+  background-image: url('https://i.pinimg.com/736x/9c/1a/09/9c1a09e9ac1231a8b71e4220b9f27123.jpg'); 
+}
+
+.bg2 {
+  background-image: url('https://mustsharenews.com/wp-content/uploads/2020/07/corgi-meme-king-adorable.jpg'); 
+}
+
+.content {
+  background: black;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
